@@ -103,7 +103,7 @@ function getWeather() {
 
                         var feelslike = document.createElement('p');
                         feelslike.setAttribute("class", "padd")
-                        feelslike.textContent = 'Feels Like:' + JSON.stringify(mytry.feelslike) + '%';
+                        feelslike.textContent = 'Feels Like:' + JSON.stringify(mytry.feelslike) + '°';
                         var mainrain = document.createElement('p');
                         mainrain.setAttribute("class", "padd")
                         mainrain.textContent = 'General Status:' + mytry.rain;
